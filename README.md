@@ -1,2 +1,2 @@
 # Project Euler Solutions
-My solutions for the Project Euler problems, which can be found at https://projecteuler.net/archives.
+These are my solutions for the Project Euler problems. The problems themselves may be found at https://projecteuler.net/archives.
