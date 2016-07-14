@@ -1,9 +1,6 @@
-print(sum(num for num in range(1000) if (num % 3 == 0 or num % 5 == 0)))
+sum = 0
+for num in range(1000):
+	if (num % 3 == 0 or num % 5 == 0):
+		sum += num
 
-# Old Solution
-# sum = 0
-# for num in range(1000):
-# 	if (num % 3 == 0 or num % 5 == 0):
-# 		sum += num
-# 
-# print(sum)
+print(sum)
