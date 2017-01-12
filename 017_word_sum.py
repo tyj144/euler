@@ -16,7 +16,7 @@ def get_word_length(num):
     hunds = num // 100
     tens = num % 100
     if hunds > 0:
-      word_length += len(key[hunds] + "hundred") # number of letters corresponding to hundreds digit)
+      word_length += len(key[hunds] + "hundred") # number of letters corresponding to hundreds digit
       if tens > 0:
         word_length += len("and")
     
