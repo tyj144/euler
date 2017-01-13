@@ -1,4 +1,4 @@
-large_num = open('./large_num.txt', 'r').read()
+large_num = open('./008_large_num.txt', 'r').read()
 largest_product = 0
 
 for start in range(len(large_num)):
